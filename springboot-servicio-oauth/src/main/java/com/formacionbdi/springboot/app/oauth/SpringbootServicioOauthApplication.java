@@ -27,6 +27,7 @@ public class SpringbootServicioOauthApplication implements CommandLineRunner {
 		for (int i = 0; i < 4; i++) {
 			String passwordBCrypt = passwordEncode.encode(password);
 			System.out.println(passwordBCrypt);
+			
 		}
 
 	}
